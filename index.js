@@ -29,6 +29,8 @@ app.post('/find', (req, res) => {
   return res.redirect('/')
 })
 
+
+
 console.log(artigos.length)
 
 app.listen(4000)
